@@ -1,4 +1,7 @@
 import logo from "../assets/logo";
+import Article from "../components/Article";
+import "@testing-library/jest-dom";
+import {render, screen} from "@testing-library/react"
 
 const blogData = {
   name: "Underreacted",
